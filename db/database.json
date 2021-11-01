@@ -1,0 +1,64 @@
+{
+    "movies":[
+        {
+            "id": 1,
+            "image": "https://images6.alphacoders.com/111/1110175.jpg",
+            "name": "Arrow",
+            "description": "Playboy, milionário e mulherengo, Oliver Queen (Stephen Amell) está presumivelmente morto há 5 anos, quando um acidente de iate causou o desaparecimento dele, de seu pai, Robert (Jamey Sheridan), e Sara Lance, irmã de sua então namorada Laurel (Katie Cassidy). Mas Ollie sobreviveu e, preso em uma ilha, ele aprendeu a lutar por sua vida. De volta à civilização em Starling City, ele é um homem mudado e está decidido a honrar a memória do pai e livrar a cidade da corrupção. Disfarçado, ele usa as habilidades que aprendeu durante seu tempo de reclusão para isso, e ao mesmo tempo precisa esconder sua nova identidade da mãe, Moira (Susanna Thompson), da irmã, Thea (Willa Holland) e dos amigos"
+        },
+        {
+            "id": 2,
+            "image": "https://images.wallpapersden.com/image/download/the-lightning-flash-4k_bGtrbGeUmZqaraWkpJRobWllrWdma2U.jpg",
+            "name": "The Flash",
+            "description": "O investigador forense Barry Allen (Grant Gustin) sofre um acidente em seu laboratório: ele leva um banho de produtos químicos e, em seguida, é atingido por um raio. A partir disso, ele se torna capaz de canalizar os poderes do 'Campo de Velocidade' e de se locomover com uma rapidez sobre-humana. De máscara e uniforme vermelhos, Barry assume a identidade do super-herói Flash e começa a usar suas habilidades para patrulhar Central City, contando com a ajuda dos cientistas da S.T.A.R. Labs. Ao mesmo tempo que detém vilões, ele procura descobrir quem está por trás do assassino de sua mãe."
+        },
+        {
+            "id": 3,
+            "image": "https://images.alphacoders.com/107/1072652.jpg",
+            "name": "La Casa de Papel",
+            "description": "Na série La Casa de Papel, da Netflix, nove habilidosos ladrões (Nairóbi, Berlim, Tókyo, Rio, Helsinki, Oslo, Professor, Denver e Moscou) se trancam na Casa da Moeda da Espanha, com o ambicioso plano de realizar o maior roubo da história. Possuindo a meta de imprimir 2,4 bilhões de euros, a gangue precisará lidar com as dezenas de pessoas que foram mantidas reféns e com os agentes da força de elite da polícia, que farão de tudo para que a investida dos criminosos fracasse. No processo, novos conflitos passam a surgir, precisando o grupo se preocupar, além dos problemas com a força policial, com os problemas entre eles próprios, que passam a ameaçar a natureza da missão. O elenco é composto por Álvaro Morte, Úrsula Corberó, Itzar Ituño, Pedro Alonso, Alba Flores, Miguel Herrán, Jaime Lorente, Esther Acebo e outros."
+        },
+        {
+            "id": 4,
+            "image": "https://www.ixpap.com/images/2021/02/hd-avengers-wallpaper-ixpap.jpg",
+            "name": "Vingadores",
+            "description": "Loki (Tom Hiddleston) retorna à Terra enviado pelos chitauri, uma raça alienígena que pretende dominar os humanos. Com a promessa de que será o soberano do planeta, ele rouba o cubo cósmico dentro de instalações da S.H.I.E.L.D. e, com isso, adquire grandes poderes. Loki os usa para controlar o dr. Erik Selvig (Stellan Skarsgard) e Clint Barton/Gavião Arqueiro (Jeremy Renner), que passam a trabalhar para ele. No intuito de contê-los, Nick Fury (Samuel L. Jackson) convoca um grupo de pessoas com grandes habilidades, mas que jamais haviam trabalhado juntas: Tony Stark/Homem de Ferro (Robert Downey Jr.), Steve Rogers/Capitão América (Chris Evans), Thor (Chris Hemsworth), Bruce Banner/Hulk (Mark Ruffalo) e Natasha Romanoff/Viúva Negra (Scarlett Johansson). Só que, apesar do grande perigo que a Terra corre, não é tão simples assim conter o ego e os interesses de cada um deles para que possam agir em grupo."
+        },
+        {
+            "id": 5,
+            "image": "https://www.teahub.io/photos/full/6-63829_justice-league-wallpaper-4k.jpg",
+            "name": "Liga da Justiça",
+            "description": "Em Liga da Justiça, impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman (Henry Cavill), Bruce Wayne (Ben Affleck) convoca sua nova aliada Diana Prince (Gal Gadot) para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes - Batman, Mulher-Maraviha, Aquaman (Jason Momoa), Cyborg (Ray Fisher) e Flash (Ezra Miller) -, poderá ser tarde demais para salvar o planeta de um catastrófico ataque."
+        },
+        {
+            "id": 6,
+            "image": "https://wallpapershome.com/images/wallpapers/supergirl-3840x2160-melissa-benoist-best-tv-series-9821.jpg",
+            "name": "Supergirl",
+            "description": "Kara Zor-El nasceu no planeta Krypton, e escapou da destruição há algum tempo. Desde então, ela chegou à Terra, e vem escondendo os poderes que ela e seus primos têm. Mas agora, aos 24 anos, ela decidiu assumir suas habilidades e ser a heroína que nasceu para ser."
+        },
+        {
+            "id": 7,
+            "image": "https://static.wikia.nocookie.net/9437a80b-91e9-4f50-8060-78f9e8c96cf1",
+            "name": "Legends of Tomorrow",
+            "description": "Quando heróis sozinhos não são o suficiente... o mundo precisa de lendas. Já tendo visto o futuro, um deles irá desesperadamente tentar impedi-lo de acontecer. Rip Hunter (Arthur Darvill), o viajante do tempo, recebe a tarefa de reunir um disforme grupo de heróis e vilões para confrontar uma ameaça difícil de parar; uma que não ameaça somente a integridade do planeta, mas do próprio tempo como uma entidade. Será que este improvável time é capaz de combater uma ameaça imortal, diferente de tudo que eles conhecem?"
+        },
+        {
+            "id": 8,
+            "image": "https://wallpapercave.com/wp/wp2023354.jpg",
+            "name": "Blindspot",
+            "description": "A história de um agente do FBI que, misteriosamente, se vê em meio a uma conspiração. A história começa quando Jane Doe (Jaimie Alexander), completamente sem memória, é encontrada nua no meio da Times Square, em Nova York, com o corpo coberto de tatuagens recentes. E uma dessas tatuagens é o nome do agente do FBI Kurt Weller (Sullivan Stapleton). Agora, ele terá que desvendar os mistérios: Quem é esta mulher e o que significam suas tatuagens?"
+        },
+        {
+            "id": 9,
+            "image": "https://wallpapercave.com/wp/wp1825208.jpg",
+            "name": "The 100",
+            "description": "Na série The 100, quando uma guerra nuclear destruiu a civilização e o planeta Terra, os únicos sobreviventes foram 400 pessoas que estavam em 12 estações espaciais em órbita. 97 anos e três gerações depois, a população já contava com 4 mil pessoas, mas os recursos já vão escassos. Para garantir o futuro, um grupo de cem jovens é enviado à superfície da Terra para descobrir se ela está habitável. Com a sobrevivência da raça humana em suas mãos, estes jovens precisam superar suas diferenças e unir forças para cruzar juntos o seu caminho."
+        },
+        {
+            "id": 10,
+            "image": "https://wallpapercave.com/wp/wp8385444.jpg",
+            "name": "Lupin",
+            "description": "Baseada nos romances policiais de Maurice Leblanc, Lupin acompanha Assane Diop (Omar Sy), um homem que, 25 anos atrás, viu sua vida virar de cabeça para baixo com a morte de seu pai, então acusado injustamente de um crime. Agora, ele está em busca de vingança e, para isso, se inspira em Arsène Lupin, o famoso 'ladrão de casaca' da literatura francesa. Conhecido como 'Robin Hood da Belle Époque', Lupin se tornou um gênio do crime na Paris do início do século 20 - e Diop vai seguir seus passos nos dias de hoje."
+        }
+    ]
+}

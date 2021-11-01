@@ -1,0 +1,32 @@
+.menu_left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.area_links{
+    display: flex;
+}
+.menu_left h1{
+    text-transform: uppercase;
+    color: #E52213;
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+}
+
+.ul_items{
+    display: flex;
+    list-style: none;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.ul_items li{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+}
