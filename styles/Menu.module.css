@@ -1,16 +1,18 @@
-.menu_left{
+.menu{
     display: flex;
     justify-content: space-between;
+    padding: 0px 2rem;
 }
 
 .area_links{
     display: flex;
 }
-.menu_left h1{
+.menu h1{
     text-transform: uppercase;
     color: #E52213;
     font-family: "Inter", sans-serif;
     font-size: 2.2rem;
+    cursor: pointer;
 }
 
 .ul_items{
@@ -23,6 +25,7 @@
 .ul_items li{
     color: #ffffff;
     font-weight: 700;
+    cursor: not-allowed;
 }
 
 .icons{

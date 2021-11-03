@@ -1,4 +1,37 @@
 .list_title{
     font-size: 1.4rem;
     color: #ffffff;
+    padding: 0 2rem;
 } 
+
+.list_movies{
+    display: flex;
+    position: relative;
+    padding: 0 2rem;
+    flex-direction: column;
+    gap: 0.25rem;
+    height: 180px;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.list_movies::-webkit-scrollbar{
+    width: 0px;
+}
+
+.moveRight{
+    cursor: pointer;
+}
+
+.moveLeft{
+    cursor: pointer;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+}
+.movie{
+    cursor: pointer;
+}

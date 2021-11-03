@@ -1,4 +1,4 @@
-import  Link  from "next/link";
+import Link from "next/link";
 import { AiOutlineSearch } from "react-icons/ai";
 import { RiShieldUserFill, RiArrowDownSFill } from "react-icons/ri";
 import { IoMdNotifications } from "react-icons/io";
@@ -7,33 +7,35 @@ import styles from "../styles/Menu.module.css";
 export default function Menu() {
     return (
         <>
-            <div className={styles.menu_left}>
+            <div className={styles.menu}>
                 <div className={styles.area_links}>
-                    <h1>Flixfilmes</h1>
+                    <Link href="/" passHref>
+                        <h1>Flixfilmes</h1>
+                    </Link>
                     <ul className={styles.ul_items}>
                         <li>
                             <Link href="/">
-                                Início
+                            Início
                             </Link>
                         </li>
                         <li>
                             <Link href="/series">
-                                Séries
+                            Séries
                             </Link>
                         </li>
                         <li>
                             <Link href="/filmes">
-                                Filmes
+                            Filmes
                             </Link>
                         </li>
                         <li>
                             <Link href="/bombando">
-                                Bombando
+                            Bombando
                             </Link>
                         </li>
                         <li>
                             <Link href="/minhalista">
-                                Minha lista
+                            Minha lista
                             </Link>
                         </li>
                     </ul>

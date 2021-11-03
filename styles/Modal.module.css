@@ -1,0 +1,27 @@
+.overlay{
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    background-color:rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+}
+
+.modal{
+    background-color: #060707; 
+    text-align: center;
+    padding-top: 2rem;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+
+.modal p{
+    /* width: 24rem; */
+    text-align: justify;
+    margin: auto;
+}
+

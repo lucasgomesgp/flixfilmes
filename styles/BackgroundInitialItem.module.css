@@ -1,0 +1,83 @@
+.containerItem{
+    position: relative;
+}
+
+.buttons{
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    z-index: 1;
+}
+
+.containerItem h1{
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.play{
+    width: 8.875rem;
+    height: 2.5rem;
+    border: 0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 1rem;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.infos{
+    width: 13.375rem;
+    height: 2.5rem;
+    border: 0;
+    margin-left: 1.6rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #5C5D5C;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 0.4rem;
+}
+
+@media (max-width: 672px){
+    .buttons{
+        top: 12rem;
+        left: 20rem;
+    }
+    .buttons h1{
+        display: none;
+    }
+
+    .play{
+        width: 4rem;
+        height: 2rem;
+    }
+    .play span{
+        display: none;
+    }
+    .infos{
+        width: 4rem;
+        height: 2rem;
+    }
+    .infos span{
+        display: none;
+    }
+    .containerItem{
+        display: flex;
+    }
+}
+@media (max-width: 842px){
+    .buttons{
+        top: 7rem;
+    }
+}
+@media (max-width: 474px){
+    .buttons{
+        left: 1rem;
+        top: 4rem;
+    }
+}
