@@ -25,7 +25,12 @@ export default function Modal({ id }) {
         movie ? (
             <div className={styles.overlay} onClick={handleToggleModal}>
                 <div className={styles.modal}>
-                    <Image src={movie.image} alt={movie.name} width={700} height={300} />
+                    <iframe
+                        width="500" height="320"
+                        src={`${movie.movieSrc}?autoplay=1&controls=0`}
+                        title={movie.name} frameBorder="0"
+                        allow=" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen />
                     <h1>{movie.name}</h1>
                     <p>{movie.description}</p>
                 </div>
