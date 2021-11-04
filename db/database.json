@@ -69,6 +69,20 @@
             "name": "Lupin",
             "description": "Baseada nos romances policiais de Maurice Leblanc, Lupin acompanha Assane Diop (Omar Sy), um homem que, 25 anos atrás, viu sua vida virar de cabeça para baixo com a morte de seu pai, então acusado injustamente de um crime. Agora, ele está em busca de vingança e, para isso, se inspira em Arsène Lupin, o famoso 'ladrão de casaca' da literatura francesa. Conhecido como 'Robin Hood da Belle Époque', Lupin se tornou um gênio do crime na Paris do início do século 20 - e Diop vai seguir seus passos nos dias de hoje.",
             "movieSrc": "https://www.youtube.com/embed/ga0iTWXCGa0"
+        },
+        {
+            "id": 11,
+            "image": "https://wallpaperaccess.com/full/2996058.jpg",
+            "name": "Stargirl",
+            "description": "Stargirl conta a história de Courtney Whitmore (Brec Bassinger), estudante forçada a se mudar para uma nova cidade, depois que sua mãe se casa novamente. Ela só não esperava que seu padrasto, Pat Dugan (Luke Wilson), costumava ser Stripesy, o braço direito do herói Starman (Joel McHale). Armada com seu bastão mágico, ela vai acabar inspirando uma nova geração de heróis inusitados.",
+            "movieSrc": "https://www.youtube.com/embed/q8rzAYp-mNQ"
+        },
+        {
+            "id": 12,
+            "image": "https://wallpapercave.com/wp/wp3210977.jpg",
+            "name": "Spiderman",
+            "description": "Em Homem-Aranha: De Volta ao Lar, depois de atuar ao lado dos Vingadores, chegou a hora de Peter Parker (Tom Holland) voltar para casa e para a sua vida, já não mais tão normal. Lutando diariamente contra pequenos crimes nas redondezas, ele pensa ter encontrado a missão de sua vida quando o terrível vilão Abutre (Michael Keaton) surge amedrontando a cidade. O problema é que a tarefa não será tão fácil como ele imaginava.",
+            "movieSrc": "https://www.youtube.com/embed/w81ppUfU1sc"
         }
     ]
 }

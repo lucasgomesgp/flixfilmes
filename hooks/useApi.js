@@ -19,4 +19,13 @@ async function getMovieId(id) {
         console.log(error);
     }
 }
-export { getMovies, getMovieId };
+
+async function getNumberTotalMovies() {
+    try {
+        const { data } = await getMovies();
+        return data.length;
+    }catch(error){
+        console.log(error);
+    }
+}
+export { getMovies, getMovieId, getNumberTotalMovies };

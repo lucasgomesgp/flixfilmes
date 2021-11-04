@@ -12,12 +12,13 @@
     gap: 0.25rem;
     height: 180px;
     flex-wrap: wrap;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
 }
 
 .list_movies::-webkit-scrollbar{
-    width: 0px;
+    display: none;
 }
 
 .moveRight{
@@ -30,8 +31,10 @@
 
 .arrows{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 .movie{
     cursor: pointer;
+    border-radius: 4px;
 }

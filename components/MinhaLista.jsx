@@ -1,23 +1,26 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io"
 import { getMovies } from "../hooks/useApi";
-import styles from "../styles/MinhaLista.module.css";
-import Modal from "./Modal";
 import { MovieContext } from "../hooks/useContext";
+import Modal from "./Modal";
+import styles from "../styles/MinhaLista.module.css";
 
 export default function MinhaLista() {
     const [movies, setMovies] = useState([]);
     const [moveItems, setMoveItems] = useState(0);
-    const [movieModal, setMovieModal] = useState(0);
     const {modalStatus, setModalStatus} = useContext(MovieContext);
+    const [movieModal, setMovieModal] = useState(0);
+    const carousel = useRef(null);
 
-    function handleMoveRight() {
-
+    function handleMoveRight(event) {
+        event.preventDefault();
+        carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
-
-    function handleMoveLeft() {
-
+    
+    function handleMoveLeft(event) {
+        event.preventDefault();
+        carousel.current.scrollLeft -= carousel.current.offsetWidth;
     }
 
     function handleModalOpen(id) {
@@ -44,7 +47,7 @@ export default function MinhaLista() {
                     modalStatus ? <Modal id={movieModal} /> : ""
                 }
             </div>
-            <div className={styles.list_movies}>
+            <div className={styles.list_movies} ref={carousel}>
                 {
                     movies.map(movie => (
                         <Image key={movie.id} className={styles.movie} width="280px" height="180px" src={movie.image} alt={movie.name} onClick={() => { handleModalOpen(movie.id) }} />

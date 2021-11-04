@@ -1,9 +1,7 @@
 import { useContext, useEffect, useState } from "react";
-import Image from "next/image";
-import { FaRegWindowClose } from "react-icons/fa";
 import { getMovieId } from "../hooks/useApi";
-import styles from "../styles/Modal.module.css";
 import { MovieContext } from "../hooks/useContext";
+import styles from "../styles/Modal.module.css";
 
 export default function Modal({ id }) {
     const [movie, setMovie] = useState();
