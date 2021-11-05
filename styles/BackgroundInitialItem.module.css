@@ -1,8 +1,9 @@
 .containerItem{
     position: relative;
-    object-fit: contain;
 }
-
+.image{
+    width: 200px;
+}
 .buttons{
     position: absolute;
     top: 12rem;
