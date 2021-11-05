@@ -8,8 +8,7 @@ import styles from "../styles/MinhaLista.module.css";
 
 export default function MinhaLista() {
     const [movies, setMovies] = useState([]);
-    const [moveItems, setMoveItems] = useState(0);
-    const {modalStatus, setModalStatus} = useContext(MovieContext);
+    const {modalStatus, setModalStatus, modalStatusHome} = useContext(MovieContext);
     const [movieModal, setMovieModal] = useState(0);
     const carousel = useRef(null);
 
@@ -44,13 +43,13 @@ export default function MinhaLista() {
             </div>
             <div className={styles.modalMovie}>
                 {
-                    modalStatus ? <Modal id={movieModal} /> : ""
+                    modalStatus && modalStatusHome === false ? <Modal id={movieModal} /> : ""
                 }
             </div>
             <div className={styles.list_movies} ref={carousel}>
                 {
                     movies.map(movie => (
-                        <Image key={movie.id} className={styles.movie} width="280px" height="180px" src={movie.image} alt={movie.name} onClick={() => { handleModalOpen(movie.id) }} />
+                        <Image key={movie.id} priority className={styles.movie} width="280px" height="180px" src={movie.image} alt={movie.name} onClick={() => { handleModalOpen(movie.id) }} />
                     ))
                 }
             </div>

@@ -5,18 +5,24 @@ export const MovieContext = createContext({});
 
 export function ContextProvider({ children }) {
     const [modalStatus, setModalStatus] = useState(false);
-    const [moveHome, setMoveHome] = useState(1);
+    const [modalStatusHome, setModalStatusHome] = useState(false);
+    const [movieHome, setMovieHome] = useState(1);
 
     useEffect(() => {
         async function getMovieRandom() {
             const number = await getNumberTotalMovies();
-            //Gerar o número aleatório com base no tamanho do array de filmes
+            const random = Math.floor(Math.random() * number) ;
+            const randomValueWithVerification = random !== 0 ? random : number;
+            setMovieHome(randomValueWithVerification);
         }
         getMovieRandom();
     }, []);
 
     return (
-        <MovieContext.Provider value={{ modalStatus, setModalStatus }}>
+        <MovieContext.Provider value={{
+            modalStatus, setModalStatus, movieHome, 
+            modalStatusHome, setModalStatusHome 
+        }}>
             {children}
         </MovieContext.Provider>
     );

@@ -1,10 +1,11 @@
 .containerItem{
     position: relative;
+    object-fit: contain;
 }
 
 .buttons{
     position: absolute;
-    top: 10rem;
+    top: 12rem;
     left: 4rem;
     z-index: 1;
 }
@@ -42,6 +43,7 @@
 .text{
     margin-left: 0.4rem;
 }
+
 
 @media (max-width: 672px){
     .buttons{
